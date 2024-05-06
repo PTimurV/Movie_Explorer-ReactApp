@@ -1,0 +1,23 @@
+.films {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+}
+
+.select {
+	border: 1px;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px;
+	background-color: yellow;
+}
+
+.Link {
+	text-decoration: none; /* Убирает подчеркивание */
+	color: inherit; /* Наследует цвет текста от родительского элемента */
+}

@@ -1,0 +1,16 @@
+.search-results {
+	display: flex;
+	flex-wrap: wrap;
+}
+.inputSearch {
+	padding: 8px 12px; /* Задаем отступы внутри инпута */
+	font-size: 16px; /* Устанавливаем размер шрифта */
+	border: 2px solid #ccc; /* Устанавливаем рамку */
+	border-radius: 4px; /* Закругляем углы */
+	outline: none; /* Убираем рамку при фокусе */
+	transition: border-color 0.3s ease; /* Добавляем плавный переход для рамки */
+}
+
+.inputSearch:focus {
+	border-color: orange; /* Изменяем цвет рамки при фокусе */
+}
