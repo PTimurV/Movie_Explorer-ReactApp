@@ -1,0 +1,18 @@
+.film-details {
+	display: grid;
+	grid-template-columns: 1fr 2fr; /* Одна колонка для меток, две для значений */
+}
+
+.film-details-values {
+	display: grid;
+}
+
+.film-details-labels div,
+.film-details-values div {
+	padding: 10px; /* Отступы внутри ячеек */
+}
+
+.similar-films {
+	display: flex;
+	flex-wrap: wrap;
+}
